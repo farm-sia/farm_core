@@ -15,6 +15,11 @@
       </geometry>
       <material name="orange" />
     </visual>
+	<collision>
+      <geometry>
+        <cylinder length="0.10" radius="0.185"/>
+      </geometry>
+    </collision>
   </link>
 
   <link name="laser">
